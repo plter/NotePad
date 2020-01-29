@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NotePad</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_note_title_label">Title:</string>
+    <string name="add_note_save_btn_text">Save</string>
+    <string name="add_note_btn_text">New</string>
+    <string name="add_note_saveas_btn_text">Clone</string>
+    <string name="add_note_cancel_btn_text">Cancel</string>
+    <string name="import_notes_btn_text">Import</string>
+    <string name="export_notes_btn_text">Export</string>
+</resources>

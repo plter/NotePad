@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">记事本</string>
+    <string name="add_note_title_label">标题：</string>
+    <string name="add_note_save_btn_text">保存</string>
+    <string name="add_note_btn_text">新建</string>
+    <string name="add_note_saveas_btn_text">克隆</string>
+    <string name="add_note_cancel_btn_text">取消</string>
+    <string name="import_notes_btn_text">导入</string>
+	<string name="export_notes_btn_text">导出</string>
+</resources>
