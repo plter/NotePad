@@ -1,8 +1,9 @@
-# NotePad
+## NotePad
 NotePad
 
-软件使用演示视频 [https://www.bilibili.com/video/av86145547/](https://www.bilibili.com/video/av86145547/)  
-
+* 软件使用演示视频 [https://www.bilibili.com/video/av86145547/](https://www.bilibili.com/video/av86145547/)  
+* 软件下载 [https://github.com/plter/NotePad/releases](https://github.com/plter/NotePad/releases)  
+  
 ## 实现功能有  
 1. 写日志
 1. 删除日志
