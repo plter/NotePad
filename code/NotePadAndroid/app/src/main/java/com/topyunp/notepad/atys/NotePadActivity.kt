@@ -10,10 +10,10 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.topyunp.notepad.NotePadApplication
 import com.topyunp.notepad.R
+import com.topyunp.notepad.adapters.NoteListAdapter
 import com.topyunp.notepad.codecs.NoteCodec
 import com.topyunp.notepad.dal.Note
 import com.topyunp.notepad.helpers.DateHelper
-import com.topyunp.notepad.adapters.NoteListAdapter
 import com.topyunp.notepad.helpers.FileHelper
 import kotlinx.android.synthetic.main.activity_note_pad.*
 import kotlinx.coroutines.GlobalScope
