@@ -19,14 +19,14 @@
         android:title="@string/export_note"
         app:showAsAction="never" />
     <item
-        android:id="@+id/manage_exported_notes"
-        android:orderInCategory="10"
-        android:title="@string/manage_exported_notes"
-        app:showAsAction="never" />
-    <item
         android:id="@+id/export_as_text"
         android:orderInCategory="10"
         android:title="@string/export_as_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/manage_exported_notes"
+        android:orderInCategory="10"
+        android:title="@string/manage_exported_notes"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_about"

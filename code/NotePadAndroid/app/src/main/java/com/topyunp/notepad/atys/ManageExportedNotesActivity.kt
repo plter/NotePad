@@ -33,19 +33,13 @@ class ManageExportedNotesActivity : AppCompatActivity() {
 
         adapter.onItemClickedListener = { file ->
             AlertDialog.Builder(this).setTitle("选择操作")
-                .setItems(arrayOf("导入 ${file.name}", "发送")) { _, which ->
-                    when (which) {
-                        0 -> {
-                            val data = Intent()
-                            data.putExtra(RESULT_EXTRA_KEY_FILE_PATH, file.absolutePath)
-                            setResult(RESULT_CODE_OK, data)
-                            finish()
-                        }
-                        1 -> {
-                            FileHelper.shareFile(this, file)
-                        }
-                    }
-                }.show()
+                .setMessage("导入 ${file.name}?")
+                .setPositiveButton("确定") { _, _ ->
+                    val data = Intent()
+                    data.putExtra(RESULT_EXTRA_KEY_FILE_PATH, file.absolutePath)
+                    setResult(RESULT_CODE_OK, data)
+                    finish()
+                }.setNegativeButton("取消", null).show()
         }
 
         refresh()
