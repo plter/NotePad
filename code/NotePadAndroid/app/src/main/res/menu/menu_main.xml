@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.topyunp.notepadandroid.MainActivity">
+    tools:context="com.topyunp.notepad.MainActivity">
     <item
         android:id="@+id/delete_note"
         android:icon="@drawable/ic_menu_white_24dp"

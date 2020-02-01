@@ -1,11 +1,11 @@
-package com.topyunp.notepadandroid.adapters
+package com.topyunp.notepad.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.topyunp.notepadandroid.atys.ManageExportedNotesActivity
-import com.topyunp.notepadandroid.databinding.NotesFilesListCellBinding
+import com.topyunp.notepad.atys.ManageExportedNotesActivity
+import com.topyunp.notepad.databinding.NotesFilesListCellBinding
 import java.io.File
 
 class ExportedNotesListAdapter(private val manageExportedNotesActivity: ManageExportedNotesActivity) :

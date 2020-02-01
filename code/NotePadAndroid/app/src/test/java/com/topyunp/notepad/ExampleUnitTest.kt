@@ -1,4 +1,4 @@
-package com.topyunp.notepadandroid
+package com.topyunp.notepad
 
 import org.junit.Test
 

@@ -1,20 +1,15 @@
-package com.topyunp.notepadandroid.adapters
+package com.topyunp.notepad.adapters
 
-import android.animation.Animator
-import android.animation.ObjectAnimator
-import android.animation.ValueAnimator
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.AnimationUtils
 import androidx.recyclerview.widget.RecyclerView
-import com.topyunp.notepadandroid.NotePadApplication
-import com.topyunp.notepadandroid.R
-import com.topyunp.notepadandroid.atys.NotePadActivity
-import com.topyunp.notepadandroid.codecs.NoteCodec
-import com.topyunp.notepadandroid.dal.Note
-import com.topyunp.notepadandroid.databinding.NoteListCellLayoutBinding
-import com.topyunp.notepadandroid.helpers.DateHelper
+import com.topyunp.notepad.NotePadApplication
+import com.topyunp.notepad.atys.NotePadActivity
+import com.topyunp.notepad.codecs.NoteCodec
+import com.topyunp.notepad.dal.Note
+import com.topyunp.notepad.databinding.NoteListCellLayoutBinding
+import com.topyunp.notepad.helpers.DateHelper
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import org.json.JSONObject

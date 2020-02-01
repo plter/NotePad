@@ -1,4 +1,4 @@
-package com.topyunp.notepadandroid.providers
+package com.topyunp.notepad.providers
 
 import androidx.core.content.FileProvider
 

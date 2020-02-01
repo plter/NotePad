@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.topyunp.notepadandroid">
+    package="com.topyunp.notepad">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INSTALL_SHORTCUT" />
 
     <application
-        android:name=".NotePadApplication"
+        android:name="com.topyunp.notepad.NotePadApplication"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@drawable/app_icon"
@@ -16,15 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".atys.ManageExportedNotesActivity"
+            android:name="com.topyunp.notepad.atys.ManageExportedNotesActivity"
             android:configChanges="orientation|keyboardHidden" />
-        <activity android:name=".atys.AboutActivity" />
+        <activity android:name="com.topyunp.notepad.atys.AboutActivity" />
         <activity
-            android:name=".atys.EditNoteActivity"
+            android:name="com.topyunp.notepad.atys.EditNoteActivity"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".atys.NotePadActivity"
+            android:name="com.topyunp.notepad.atys.NotePadActivity"
             android:configChanges="orientation|keyboardHidden"
             android:icon="@drawable/app_icon"
             android:roundIcon="@drawable/app_icon"
@@ -45,7 +45,7 @@
         </activity>
 
         <provider
-            android:name=".providers.GenericFileProvider"
+            android:name="com.topyunp.notepad.providers.GenericFileProvider"
             android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true">

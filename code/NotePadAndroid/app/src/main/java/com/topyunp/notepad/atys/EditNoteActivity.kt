@@ -1,4 +1,4 @@
-package com.topyunp.notepadandroid.atys
+package com.topyunp.notepad.atys
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -8,9 +8,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 import com.google.android.material.snackbar.Snackbar
-import com.topyunp.notepadandroid.NotePadApplication
-import com.topyunp.notepadandroid.R
-import com.topyunp.notepadandroid.dal.Note
+import com.topyunp.notepad.NotePadApplication
+import com.topyunp.notepad.R
+import com.topyunp.notepad.dal.Note
 import kotlinx.android.synthetic.main.activity_edit_note.*
 import kotlinx.android.synthetic.main.activity_note_pad.toolbar
 import kotlinx.coroutines.GlobalScope

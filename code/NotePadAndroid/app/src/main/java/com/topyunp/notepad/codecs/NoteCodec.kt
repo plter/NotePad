@@ -1,8 +1,8 @@
-package com.topyunp.notepadandroid.codecs
+package com.topyunp.notepad.codecs
 
-import com.topyunp.notepadandroid.dal.Note
-import com.topyunp.notepadandroid.dal.NoteFieldNames
-import com.topyunp.notepadandroid.helpers.DateHelper
+import com.topyunp.notepad.dal.Note
+import com.topyunp.notepad.dal.NoteFieldNames
+import com.topyunp.notepad.helpers.DateHelper
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject

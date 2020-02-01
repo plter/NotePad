@@ -1,4 +1,4 @@
-package com.topyunp.notepadandroid.atys
+package com.topyunp.notepad.atys
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,14 +8,13 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.FileProvider
-import com.topyunp.notepadandroid.NotePadApplication
-import com.topyunp.notepadandroid.R
-import com.topyunp.notepadandroid.codecs.NoteCodec
-import com.topyunp.notepadandroid.dal.Note
-import com.topyunp.notepadandroid.helpers.DateHelper
-import com.topyunp.notepadandroid.adapters.NoteListAdapter
-import com.topyunp.notepadandroid.helpers.FileHelper
+import com.topyunp.notepad.NotePadApplication
+import com.topyunp.notepad.R
+import com.topyunp.notepad.codecs.NoteCodec
+import com.topyunp.notepad.dal.Note
+import com.topyunp.notepad.helpers.DateHelper
+import com.topyunp.notepad.adapters.NoteListAdapter
+import com.topyunp.notepad.helpers.FileHelper
 import kotlinx.android.synthetic.main.activity_note_pad.*
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

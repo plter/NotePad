@@ -1,4 +1,4 @@
-package com.topyunp.notepadandroid.atys
+package com.topyunp.notepad.atys
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.topyunp.notepadandroid.R
-import com.topyunp.notepadandroid.adapters.ExportedNotesListAdapter
-import com.topyunp.notepadandroid.helpers.FileHelper
+import com.topyunp.notepad.R
+import com.topyunp.notepad.adapters.ExportedNotesListAdapter
+import com.topyunp.notepad.helpers.FileHelper
 import kotlinx.android.synthetic.main.activity_manage_exported_notes.*
 import java.io.File
 

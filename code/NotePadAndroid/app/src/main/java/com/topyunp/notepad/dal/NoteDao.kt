@@ -1,4 +1,4 @@
-package com.topyunp.notepadandroid.dal
+package com.topyunp.notepad.dal
 
 import androidx.room.*
 

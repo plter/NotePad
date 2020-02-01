@@ -1,8 +1,8 @@
-package com.topyunp.notepadandroid
+package com.topyunp.notepad
 
 import android.app.Application
 import androidx.room.Room
-import com.topyunp.notepadandroid.dal.AppDatabase
+import com.topyunp.notepad.dal.AppDatabase
 
 class NotePadApplication : Application() {
 

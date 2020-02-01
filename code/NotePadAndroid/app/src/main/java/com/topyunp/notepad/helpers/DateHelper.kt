@@ -1,4 +1,4 @@
-package com.topyunp.notepadandroid.helpers
+package com.topyunp.notepad.helpers
 
 import java.util.*
 

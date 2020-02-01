@@ -1,4 +1,4 @@
-package com.topyunp.notepadandroid.dal
+package com.topyunp.notepad.dal
 
 object NoteFieldNames {
     const val _ID = "_id"

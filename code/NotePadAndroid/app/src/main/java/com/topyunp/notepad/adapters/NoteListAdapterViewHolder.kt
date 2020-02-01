@@ -1,14 +1,14 @@
-package com.topyunp.notepadandroid.adapters
+package com.topyunp.notepad.adapters
 
 import android.content.Intent
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
-import com.topyunp.notepadandroid.atys.EditNoteActivity
-import com.topyunp.notepadandroid.atys.NotePadActivity
-import com.topyunp.notepadandroid.dal.Note
-import com.topyunp.notepadandroid.databinding.NoteListCellLayoutBinding
+import com.topyunp.notepad.atys.EditNoteActivity
+import com.topyunp.notepad.atys.NotePadActivity
+import com.topyunp.notepad.dal.Note
+import com.topyunp.notepad.databinding.NoteListCellLayoutBinding
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
