@@ -7,5 +7,15 @@
     <string name="add_note_saveas_btn_text">克隆</string>
     <string name="add_note_cancel_btn_text">取消</string>
     <string name="import_notes_btn_text">导入</string>
-	<string name="export_notes_btn_text">导出</string>
+    <string name="export_notes_btn_text">导出</string>
+    <string name="action_about">关于</string>
+    <string name="action_save_note">保存</string>
+    <string name="action_clone_note">克隆</string>
+    <string name="edit_note">编辑日志</string>
+    <string name="import_note">导入</string>
+    <string name="export_note">导出</string>
+    <string name="delete">删除</string>
+    <string name="add_new_note">添加新日志</string>
+    <string name="manage_exported_notes">管理导出的日志</string>
+    <string name="delete_file">删除文件</string>
 </resources>

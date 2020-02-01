@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
-    android:animation="@anim/note_list_cell_scale_anim"
+    android:animation="@anim/scalex_to1_anim"
     android:animationOrder="random"
     android:delay="50%">
     
