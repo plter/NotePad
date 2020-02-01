@@ -1,6 +1,7 @@
 package com.topyunp.notepad.atys
 
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
@@ -15,6 +16,11 @@ class AboutActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = getString(R.string.action_about)
 
+        version_tv.text = "版本号：${this.packageManager.getPackageInfo(
+            this.packageName,
+            PackageManager.GET_META_DATA
+        ).versionName}"
+
         btn_goto_yunp_top.setOnClickListener {
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse("https://yunp.top")
@@ -24,6 +30,12 @@ class AboutActivity : AppCompatActivity() {
         btn_view_source.setOnClickListener {
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse("https://github.com/plter/NotePad")
+            startActivity(i)
+        }
+
+        btn_visit_new_version.setOnClickListener {
+            val i = Intent(Intent.ACTION_VIEW)
+            i.data = Uri.parse("https://github.com/plter/NotePad/releases")
             startActivity(i)
         }
     }
