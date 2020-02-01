@@ -13,6 +13,7 @@ import com.topyunp.notepad.helpers.DateHelper
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import org.json.JSONObject
+import java.lang.StringBuilder
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -77,5 +78,23 @@ class NoteListAdapter(
 
     fun getNotesJson(): JSONObject? {
         return NoteCodec.encode(dataSource)
+    }
+
+    fun getNotesText(): String {
+        val result = StringBuilder()
+        dataSource.forEach {
+            result.append("**********\n")
+            result.append(it.title)
+            result.append("\n")
+            if (it.modifiedDate != null) {
+                val d = Calendar.getInstance()
+                d.timeInMillis = it.modifiedDate
+                result.append(DateHelper.convertToReadable(d))
+                result.append("\n")
+            }
+            result.append(it.content)
+            result.append("\n\n")
+        }
+        return result.toString()
     }
 }

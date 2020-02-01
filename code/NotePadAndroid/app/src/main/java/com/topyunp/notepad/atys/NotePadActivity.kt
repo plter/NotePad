@@ -157,28 +157,43 @@ class NotePadActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.action_about -> {
                 startActivity(Intent(this, AboutActivity::class.java))
-                return true
+                true
             }
             R.id.delete_note -> {
                 toggleDeleteMode()
-                return true
+                true
             }
             R.id.add_new_note -> {
                 startAddNewNoteActivity()
-                return true
+                true
             }
             R.id.export_note -> {
                 exportToExternalStorage()
-                return true
+                true
             }
             R.id.manage_exported_notes -> {
                 startActivityForResult(
                     Intent(this, ManageExportedNotesActivity::class.java),
                     ManageExportedNotesActivity.REQUEST_CODE_SELECT_NOTES_TO_IMPORT
                 )
-                return true
+                true
+            }
+            R.id.export_as_text -> {
+                exportAsText()
+                true
             }
             else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    private fun exportAsText() {
+        val adapter = notesRV.adapter as? NoteListAdapter
+
+        if (adapter != null) {
+            val intent = Intent(Intent.ACTION_SEND)
+            intent.type = "text/*"
+            intent.putExtra(Intent.EXTRA_TEXT, adapter.getNotesText())
+            startActivity(intent)
         }
     }
 

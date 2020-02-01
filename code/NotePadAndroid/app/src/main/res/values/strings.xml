@@ -18,4 +18,5 @@
     <string name="add_new_note">Add new note</string>
     <string name="manage_exported_notes">Manage exported notes</string>
     <string name="delete_file">Delete file</string>
+    <string name="export_as_text">Export as text</string>
 </resources>
